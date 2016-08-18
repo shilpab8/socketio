@@ -1,4 +1,4 @@
-var io = require('socket.io')(3000);
+var io = require('socket.io')(process.env.PORT || 8888);
 
 io.on('connection', function(socket){
 
