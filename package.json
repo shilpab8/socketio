@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
   "start": "node chat-server.js"
-}
+},
   "dependencies": {
     "socket.io": "^1.3.7"
   }
